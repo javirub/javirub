@@ -3,7 +3,7 @@
 🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring
 🌱 Aprendiendo sobre: `Java`, `Spring Boot`, `Docker`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`
-⚡ Fun fact: Me encanta `Star Wars` y soy fan de `Anakin Skywalker`
+⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.
 
 ## 🌱 Aprendiendo sobre
 
