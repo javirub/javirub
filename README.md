@@ -47,9 +47,9 @@ Actualmente, estoy profundizando en:
 
 ## 🌍 Idiomas
 
-- ![Español](https://img.shields.io/badge/Español-Nativo-red?style=for-the-badge&logo=es&logoColor=white) **Español** (Nativo)
-- ![Catalán](https://img.shields.io/badge/Catalán-Nativo-red?style=for-the-badge&logo=cat&logoColor=white) **Catalán** (Nativo)
-- ![Inglés](https://img.shields.io/badge/Inglés-Profesional-yellow?style=for-the-badge&logo=gb&logoColor=white) **Inglés** (Profesional, mejorando activamente)
+- ![**Español** (Nativo)](https://img.shields.io/badge/Español-Nativo-red?style=for-the-badge&logo=es&logoColor=white)
+- ![**Catalán** (Nativo)](https://img.shields.io/badge/Catalán-Nativo-red?style=for-the-badge&logo=cat&logoColor=white)
+- ![**Inglés** (Profesional)](https://img.shields.io/badge/Inglés-Profesional-yellow?style=for-the-badge&logo=gb&logoColor=white) (mejorando activamente)
 
 
 ## 📊 Estadísticas de GitHub
