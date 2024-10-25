@@ -45,6 +45,11 @@ Actualmente, estoy profundizando en:
 ![DataGrip](https://img.shields.io/badge/DataGrip-000000?style=for-the-badge&logo=datagrip&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+## 🌍 Idiomas
+
+- ![Español](https://img.shields.io/badge/Español-Nativo-red?style=for-the-badge&logo=es&logoColor=white) **Español** (Nativo)
+- ![Catalán](https://img.shields.io/badge/Catalán-Nativo-red?style=for-the-badge&logo=cat&logoColor=white) **Catalán** (Nativo)
+- ![Inglés](https://img.shields.io/badge/Inglés-Profesional-yellow?style=for-the-badge&logo=gb&logoColor=white) **Inglés** (Profesional, mejorando activamente)
 
 
 ## 📊 Estadísticas de GitHub
