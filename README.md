@@ -59,7 +59,7 @@ Actualmente, estoy profundizando en:
 ## 🚀 Proyectos Destacados
 
 - [**La sombra del Imperio: Guardianes de la paz**](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz): Un videojuego hecho con pygame para la asignatura de Introducción a la programación de videojuegos, un buen proyecto para mejorar la programación orientada a objetos, optimización y geometría.
-- [**Backend de Hospital con Spring boot**](https://github.com/javirub/Spring-Backend-Hospital): Mi segundo backend desarrollado con Spring Boot desde 0 de ejercicio de bootcamp simulando el funcionamiento de un hospital.
+- [**Backend de Hospital con Spring boot**](https://github.com/javirub/Spring-3-Hospital-Backend): Mi segundo backend desarrollado con Spring Boot desde 0 de ejercicio de bootcamp simulando el funcionamiento de un hospital.
 - **Trabajo de Fin de Grado**: Trabajando en un proyecto full-stack que integra Inteligencia Artificial y podría revolucionar el mercado alimenticio.
 
 ## 🌍 Encuéntrame en
