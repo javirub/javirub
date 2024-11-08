@@ -1,7 +1,7 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
 🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring
-🌱 Aprendiendo sobre: `Java`, `Spring Boot`, `Docker`
+🌱 Aprendiendo sobre: `Java`, `Spring Boot`, `RabbitMQ`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.
 
@@ -31,6 +31,7 @@ Actualmente, estoy profundizando en:
 ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
 ### Bases de datos
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
