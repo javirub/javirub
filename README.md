@@ -62,9 +62,10 @@ Actualmente, estoy profundizando en:
 <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Achievement: Quickdraw"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="100" alt="Achievement: Pull Shark"><img src="https://github.githubassets.com/assets/arctic-code-vault-contributor-default-df8d74122a06.png" width="100" alt="Achievement: Arctic Code Vault Contributor">
 
 ## 🚀 Proyectos Destacados
-
-- [**La sombra del Imperio: Guardianes de la paz**](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz): Un videojuego hecho con pygame para la asignatura de Introducción a la programación de videojuegos, un buen proyecto para mejorar la programación orientada a objetos, optimización y geometría.
-- [**Backend de Hospital con Spring boot**](https://github.com/javirub/Spring-3-Hospital-Backend): Mi segundo backend desarrollado con Spring Boot desde 0 de ejercicio de bootcamp simulando el funcionamiento de un hospital.
+- [**La sombra del Imperio: Guardianes de la paz**](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz): Un videojuego hecho con pygame para la asignatura de Introducción a la programación de videojuegos, un buen proyecto para mejorar la programación orientada a objetos, optimización y geometría.  
+[![Repo juego](https://github-readme-stats.vercel.app/api/pin/?username=javirub&repo=La-sombra-del-Imperio-Guardianes-de-la-paz&show_icons=true&theme=dark)](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz).
+- [**Backend de Hospital con Spring boot**](https://github.com/javirub/Spring-3-Hospital-Backend): Mi segundo backend desarrollado con Spring Boot desde 0 de ejercicio de bootcamp simulando el funcionamiento de un hospital.  
+[![Repo backend](https://github-readme-stats.vercel.app/api/pin/?username=javirub&repo=Spring-3-Hospital-Backend&show_icons=true&theme=dark)](https://github.com/javirub/Spring-3-Hospital-Backend)
 - **Trabajo de Fin de Grado**: Trabajando en un proyecto full-stack que integra Inteligencia Artificial y podría revolucionar el mercado alimenticio.
 
 ## 🌍 Encuéntrame en
