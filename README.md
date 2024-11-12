@@ -1,7 +1,7 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
 🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring
-🌱 Aprendiendo sobre: `Java`, `Spring Boot`, `RabbitMQ`
+🌱 Aprendiendo sobre: `Java`, `Spring Boot`, `RabbitMQ`, `javascript`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.
 
@@ -12,12 +12,14 @@ Actualmente, estoy profundizando en:
 - **Java**: Me estoy leyendo *Java: The Complete Reference, 13th Edition* para dominar todos los conceptos fundamentales y avanzados del lenguaje.
 - **OAuth 2.0**: Explorando la autenticación y autorización segura en aplicaciones web para implementar prácticas de seguridad modernas en el desarrollo backend.
 - **Desarrollo Backend con Spring Boot**: Mejorando mis habilidades para crear microservicios escalables y seguros, integrando prácticas de DevOps como Docker y gestión de configuraciones.
+- **Javascript**: Estoy siguiendo el libro online gratuito de exploring JS https://exploringjs.com/js/book/index.html 
 
 ## 🛠️ Tecnologías y herramientas
 
 ### Lenguajes de programación
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### Frameworks y bibliotecas
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
