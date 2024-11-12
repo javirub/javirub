@@ -1,7 +1,7 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
 🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring
-🌱 Aprendiendo sobre: `Java`, `Spring Boot`, `RabbitMQ`, `javascript`
+🌱 Aprendiendo sobre: `Java (JDK 21)`, `Spring Boot`, `RabbitMQ`, `javascript(ES2024)`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.
 
@@ -9,10 +9,10 @@
 
 Actualmente, estoy profundizando en:
 
-- **Java**: Me estoy leyendo *Java: The Complete Reference, 13th Edition* para dominar todos los conceptos fundamentales y avanzados del lenguaje.
+- **Java (JDK 21)**: Me estoy leyendo *Java: The Complete Reference, 13th Edition* para dominar todos los conceptos fundamentales y avanzados del lenguaje.
 - **OAuth 2.0**: Explorando la autenticación y autorización segura en aplicaciones web para implementar prácticas de seguridad modernas en el desarrollo backend.
 - **Desarrollo Backend con Spring Boot**: Mejorando mis habilidades para crear microservicios escalables y seguros, integrando prácticas de DevOps como Docker y gestión de configuraciones.
-- **Javascript**: Estoy siguiendo el libro online gratuito de exploring JS https://exploringjs.com/js/book/index.html 
+- **Javascript (ES2024)**: Estoy siguiendo el libro online gratuito de exploring JS https://exploringjs.com/js/book/index.html 
 
 ## 🛠️ Tecnologías y herramientas
 
