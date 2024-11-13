@@ -54,15 +54,6 @@ Actualmente, estoy profundizando en:
 - ![**Catalán** (Nativo)](https://img.shields.io/badge/Catalán-Nativo-red?style=for-the-badge&logo=cat&logoColor=white)
 - ![**Inglés** (Profesional)](https://img.shields.io/badge/Inglés-Profesional-yellow?style=for-the-badge&logo=gb&logoColor=white) (mejorando activamente)
 
-
-## 📊 Estadísticas de GitHub
-
-![Tus estadísticas](https://github-readme-stats.vercel.app/api?username=javirub&show_icons=true&theme=dark)
-
-### Logros
-
-<img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="100" alt="Achievement: Quickdraw"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="100" alt="Achievement: Pull Shark"><img src="https://github.githubassets.com/assets/arctic-code-vault-contributor-default-df8d74122a06.png" width="100" alt="Achievement: Arctic Code Vault Contributor">
-
 ## 🚀 Proyectos Destacados
 - [**La sombra del Imperio: Guardianes de la paz**](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz): Un videojuego hecho con pygame para la asignatura de Introducción a la programación de videojuegos, un buen proyecto para mejorar la programación orientada a objetos, optimización y geometría.  
 [![Repo juego](https://github-readme-stats.vercel.app/api/pin/?username=javirub&repo=La-sombra-del-Imperio-Guardianes-de-la-paz&show_icons=true&theme=dark)](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz).
