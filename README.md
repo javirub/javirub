@@ -5,14 +5,11 @@
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.
 
-## 🌱 Aprendiendo sobre
+## 🌱 Proyectos en marcha
 
-Actualmente, estoy profundizando en:
+Actualmente, estoy trabajando en:
 
-- **Java (JDK 21)**: Me estoy leyendo *Java: The Complete Reference, 13th Edition* para dominar todos los conceptos fundamentales y avanzados del lenguaje.
-- **OAuth 2.0**: Explorando la autenticación y autorización segura en aplicaciones web para implementar prácticas de seguridad modernas en el desarrollo backend.
-- **Desarrollo Backend con Spring Boot**: Mejorando mis habilidades para crear microservicios escalables y seguros, integrando prácticas de DevOps como Docker y gestión de configuraciones.
-- **Javascript (ES2024)**: Estoy siguiendo el libro online gratuito de exploring JS https://exploringjs.com/js/book/index.html 
+- **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Consistente en una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
 
 ## 🛠️ Tecnologías y herramientas
 
