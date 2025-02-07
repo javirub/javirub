@@ -13,6 +13,7 @@ Actualmente, estoy trabajando en:
   - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL.
   - Para el frontend, lo más probable será que utilice Svelte o React, todavía por decidir.
   - Para la organización del proyecto me organizo con Jira en una especie de scrum unipersonal organizado en 3 sprints de 3 semanas para el MVP y 1 para mejoras y preparación de la defensa.
+  - La parte de la IA seguramente el MVP consista en una LLM externo integrado con LangChain, aunque la idea es que sea un microservicio escalable con modelo propio y fine-tuneado para tener el funcionamiento esperado con el mínimo coste de hardware (si se puede usar un modelo de 8B de parametros mejor que uno de 700b)
   - Todavía no he decidido que hacer con el proyecto, puede que acabe siendo open source.
 
 ## 🛠️ Tecnologías y herramientas
