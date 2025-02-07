@@ -1,7 +1,7 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
-🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring  
-🌱 Aprendiendo sobre: `Java (JDK 21)`, `Spring Boot`, `RabbitMQ`, `javascript(ES2024)`  
+🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring  desarrollando soluciones del ámbito hospitalario
+🌱 Aprendiendo sobre: `Inteligencia Artificial`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`  
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.  
 
