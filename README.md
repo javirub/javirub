@@ -10,7 +10,10 @@
 Actualmente, estoy trabajando en:
 
 - **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Desarrollo fullstack de una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
-  - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL. Para el frontend, lo más probable Svelte o React. Para la organización del proyecto me organizo con Jira en una especie de scrum unipersonal organizado en 3 sprints de 3 semanas para el MVP y 1 para mejoras y preparación de la defensa. 
+  - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL.
+  - Para el frontend, lo más probable será que utilice Svelte o React, todavía por decidir.
+  - Para la organización del proyecto me organizo con Jira en una especie de scrum unipersonal organizado en 3 sprints de 3 semanas para el MVP y 1 para mejoras y preparación de la defensa.
+  - Todavía no he decidido que hacer con el proyecto, puede que acabe siendo open source.
 
 ## 🛠️ Tecnologías y herramientas
 
