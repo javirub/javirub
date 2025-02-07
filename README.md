@@ -9,7 +9,8 @@
 
 Actualmente, estoy trabajando en:
 
-- **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Consistente en una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
+- **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Desarrollo fullstack de una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
+  - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL. Para el frontend todavía no esta decidido, lo más probable Svelte o React.
 
 ## 🛠️ Tecnologías y herramientas
 
