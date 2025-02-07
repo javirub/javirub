@@ -1,16 +1,16 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
-🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring
-🌱 Aprendiendo sobre: `Java (JDK 21)`, `Spring Boot`, `RabbitMQ`, `javascript(ES2024)`
-💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`
-⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.
+🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring  
+🌱 Aprendiendo sobre: `Java (JDK 21)`, `Spring Boot`, `RabbitMQ`, `javascript(ES2024)`  
+💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`  
+⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.  
 
 ## 🌱 Proyectos en marcha
 
 Actualmente, estoy trabajando en:
 
 - **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Desarrollo fullstack de una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
-  - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL. Para el frontend todavía no esta decidido, lo más probable Svelte o React.
+  - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL. Para el frontend, lo más probable Svelte o React. Para la organización del proyecto me organizo con Jira en una especie de scrum unipersonal organizado en 3 sprints de 3 semanas para el MVP y 1 para mejoras y preparación de la defensa. 
 
 ## 🛠️ Tecnologías y herramientas
 
