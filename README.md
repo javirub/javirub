@@ -1,7 +1,7 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
 🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring  desarrollando soluciones del ámbito hospitalario
-🌱 Aprendiendo sobre: `Inteligencia Artificial`
+🌱 Aprendiendo sobre: `react` e `Inteligencia Artificial`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`  
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.  
 
@@ -10,13 +10,17 @@
 Actualmente, estoy trabajando en:
 
 - **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Desarrollo fullstack de una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
-  - Para el backend utilizaré Spring boot 3.4.2 con Java 21 y postgreSQL.
-  - Para el frontend, lo más probable será que utilice Svelte o React, todavía por decidir.
+  - Para el backend se ha usado Spring boot 3.4.2 con Java 21 y postgreSQL.
+  - Para el frontend, estoy utilizando react, para lo cual primero estoy aprendiendo.
   - Para la organización del proyecto me organizo con Jira en una especie de scrum unipersonal organizado en 3 sprints de 3 semanas para el MVP y 1 para mejoras y preparación de la defensa.
   - La parte de la IA seguramente el MVP consista en una LLM externo integrado con LangChain, aunque la idea es que sea un microservicio escalable con modelo propio y fine-tuneado para tener el funcionamiento esperado con el mínimo coste de hardware (si se puede usar un modelo de 8B de parametros mejor que uno de 700b)
   - Todavía no he decidido que hacer con el proyecto, puede que acabe siendo open source.
 
 ## 🛠️ Tecnologías y herramientas
+
+### Comunicación entre aplicaciones
+![REST](https://img.shields.io/badge/REST-000000?style=for-the-badge&logo=rest&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white)
 
 ### Lenguajes de programación
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -26,6 +30,7 @@ Actualmente, estoy trabajando en:
 ### Frameworks y bibliotecas
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 ### Seguridad y autenticación
 ![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-3D85C6?style=for-the-badge&logo=oauth&logoColor=white)
