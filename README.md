@@ -1,6 +1,6 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
-🔭 Actualmente trabajando en Lâberit como desarrollador backend con Java Spring  desarrollando soluciones del ámbito hospitalario
+🔭 Actualmente trabajando en Sina Suite como desarrollador backend con Java Spring  desarrollando soluciones del ámbito hospitalario
 🌱 Aprendiendo sobre: `react` e `Inteligencia Artificial`
 💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`  
 ⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.  
