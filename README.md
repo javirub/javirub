@@ -1,20 +1,26 @@
 # 👋 ¡Hola! Soy Javier Rubio
 
-🔭 Actualmente trabajando en Sina Suite como desarrollador backend con Java Spring  desarrollando soluciones del ámbito hospitalario
-🌱 Aprendiendo sobre: `react` e `Inteligencia Artificial`
-💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`  
-⚡ Curiosidad: Me encanta la Inteligencia artificial, me encantaría ser investigador.  
+🔭 Actualmente trabajando en Sina Suite como desarrollador backend con Java Spring desarrollando soluciones del ámbito hospitalario  
+🌱 Aprendiendo sobre: `Inteligencia Artificial` y `Agentes inteligentes`  
+💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`, `Kubernetes`  
+🌐 Página personal: [javirub.pro](https://www.javirub.pro)
 
 ## 🌱 Proyectos en marcha
 
 Actualmente, estoy trabajando en:
 
-- **TFG:Desarrollo de una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Desarrollo fullstack de una web de un supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
-  - Para el backend se ha usado Spring boot 3.4.2 con Java 21 y postgreSQL.
-  - Para el frontend, estoy utilizando react, para lo cual primero estoy aprendiendo.
-  - Para la organización del proyecto me organizo con Jira en una especie de scrum unipersonal organizado en 3 sprints de 3 semanas para el MVP y 1 para mejoras y preparación de la defensa.
-  - La parte de la IA seguramente el MVP consista en una LLM externo integrado con LangChain, aunque la idea es que sea un microservicio escalable con modelo propio y fine-tuneado para tener el funcionamiento esperado con el mínimo coste de hardware (si se puede usar un modelo de 8B de parametros mejor que uno de 700b)
-  - Todavía no he decidido que hacer con el proyecto, puede que acabe siendo open source.
+- **Mejorar mi trabajo de fin de Carrera: Una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Proyecto finalizado y en producción en [market.javirub.pro](https://market.javirub.pro).
+  - Desarrollo fullstack de una web de supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
+  - Backend desarrollado con Spring Boot 3.5.6, Java 21, PostgreSQL.
+  - Frontend desarrollado con React.
+  - Integración de IA con LLM externo usando LangChain.
+  - Otros servicios: 
+    - ElasticSearch para búsquedas híbridas texto + embeddings.
+    - Kibana para monitorización.
+    - ImgProxy para optimización de imágenes.
+    - Caddy como reverse proxy.
+
+- **Magic Reviewer**: Revisor de PRs de GitLab con Inteligencia Artificial para automatizar y mejorar el proceso de revisión de código.
 
 ## 🛠️ Tecnologías y herramientas
 
@@ -30,24 +36,36 @@ Actualmente, estoy trabajando en:
 ### Frameworks y bibliotecas
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
 
 ### Seguridad y autenticación
 ![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-3D85C6?style=for-the-badge&logo=oauth&logoColor=white)
+![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Better Auth](https://img.shields.io/badge/Better_Auth-6B46C1?style=for-the-badge&logo=auth0&logoColor=white)
 
 ### DevOps y herramientas de desarrollo
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Helmfile](https://img.shields.io/badge/Helmfile-2C3E50?style=for-the-badge&logo=helm&logoColor=white)
 ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ### Bases de datos
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
 ### Gestión de proyectos
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=linear&logoColor=white)
 
 ### IDEs y editores
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -60,13 +78,6 @@ Actualmente, estoy trabajando en:
 - ![**Español** (Nativo)](https://img.shields.io/badge/Español-Nativo-red?style=for-the-badge&logo=es&logoColor=white)
 - ![**Catalán** (Nativo)](https://img.shields.io/badge/Catalán-Nativo-red?style=for-the-badge&logo=cat&logoColor=white)
 - ![**Inglés** (Profesional)](https://img.shields.io/badge/Inglés-Profesional-yellow?style=for-the-badge&logo=gb&logoColor=white) (mejorando activamente)
-
-## 🚀 Proyectos Destacados
-- [**La sombra del Imperio: Guardianes de la paz**](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz): Un videojuego hecho con pygame para la asignatura de Introducción a la programación de videojuegos, un buen proyecto para mejorar la programación orientada a objetos, optimización y geometría.  
-[![Repo juego](https://github-readme-stats.vercel.app/api/pin/?username=javirub&repo=La-sombra-del-Imperio-Guardianes-de-la-paz&show_icons=true&theme=dark)](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz).
-- [**Backend de Hospital con Spring boot**](https://github.com/javirub/Spring-3-Hospital-Backend): Mi segundo backend desarrollado con Spring Boot desde 0 de ejercicio de bootcamp simulando el funcionamiento de un hospital.  
-[![Repo backend](https://github-readme-stats.vercel.app/api/pin/?username=javirub&repo=Spring-3-Hospital-Backend&show_icons=true&theme=dark)](https://github.com/javirub/Spring-3-Hospital-Backend)
-- **Trabajo de Fin de Grado**: Trabajando en un proyecto full-stack que integra Inteligencia Artificial y podría revolucionar el mercado alimenticio.
 
 ## 🌍 Encuéntrame en
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javirub/)
