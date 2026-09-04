@@ -22,6 +22,22 @@ Actualmente, estoy trabajando en:
 
 - **Magic Reviewer**: Revisor de PRs de GitLab con Inteligencia Artificial para automatizar y mejorar el proceso de revisión de código.
 
+## 📦 Proyectos públicos
+
+| Proyecto | Qué es |
+| --- | --- |
+| [gq](https://github.com/javirub/gq) | Procesador YAML/JSON compatible con `yq` que preserva la sintaxis de plantillas Go en ficheros `.gotmpl`, pensado para helmfile. `Go` |
+| [glaber](https://github.com/javirub/glaber) | App de escritorio (Tauri + React) para operar contra la API de GitLab sin escribir scripts: variables CI/CD, proyectos y subida de paquetes. `Rust` `TypeScript` |
+| [The New Era Codex](https://github.com/javirub/The-New-Era-Codex) | Plataforma de documentación multilingüe sobre IA aplicada: agentes, RAG, prompting, n8n y LLMs. `Astro` `Starlight` |
+| [Mirage](https://github.com/javirub/Mirage) | Proxy desplegable en Vercel dentro del plan gratuito. `TypeScript` |
+| [claude-manual-todos-plugin](https://github.com/javirub/claude-manual-todos-plugin) | Plugin para Claude Code que registra los pasos manuales pendientes con persistencia local en SQLite. `TypeScript` `MCP` |
+| [helm-utils](https://github.com/javirub/helm-utils) | Utilidades para Helm y Helmfile, empezando por un generador de JSON Schema para `values.yaml`. `Bash` `PowerShell` |
+| [Apuntes Matemáticas UNED](https://github.com/javirub/Maths-UNED) | Apuntes del Grado en Matemáticas de la UNED. `Astro` `Starlight` `KaTeX` |
+| [Plex Duplicate Reviewer](https://github.com/javirub/Plex-Server-Duplicate-Reviewer) | CLI que localiza películas duplicadas en un servidor Plex y las vuelca a CSV. `Python` |
+| [La sombra del Imperio](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz) | Shoot'em up por niveles, proyecto académico de programación de videojuegos. `Python` `Pygame` |
+
+Contribuciones abiertas en [external-secrets](https://github.com/external-secrets/external-secrets/pull/6510) y [expo](https://github.com/expo/expo/pull/49404).
+
 ## 🛠️ Tecnologías y herramientas
 
 ### Comunicación entre aplicaciones
@@ -32,6 +48,10 @@ Actualmente, estoy trabajando en:
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
 ### Frameworks y bibliotecas
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -41,6 +61,7 @@ Actualmente, estoy trabajando en:
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=black)
 
 ### Seguridad y autenticación
 ![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-3D85C6?style=for-the-badge&logo=oauth&logoColor=white)
