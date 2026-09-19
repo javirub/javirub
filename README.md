@@ -32,7 +32,6 @@ Actualmente, estoy trabajando en:
 | [Mirage](https://github.com/javirub/Mirage) | Proxy desplegable en Vercel dentro del plan gratuito. `TypeScript` |
 | [claude-manual-todos-plugin](https://github.com/javirub/claude-manual-todos-plugin) | Plugin para Claude Code que registra los pasos manuales pendientes con persistencia local en SQLite. `TypeScript` `MCP` |
 | [helm-utils](https://github.com/javirub/helm-utils) | Utilidades para Helm y Helmfile, empezando por un generador de JSON Schema para `values.yaml`. `Bash` `PowerShell` |
-| [Apuntes Matemáticas UNED](https://github.com/javirub/Maths-UNED) | Apuntes del Grado en Matemáticas de la UNED. `Astro` `Starlight` `KaTeX` |
 | [Plex Duplicate Reviewer](https://github.com/javirub/Plex-Server-Duplicate-Reviewer) | CLI que localiza películas duplicadas en un servidor Plex y las vuelca a CSV. `Python` |
 | [La sombra del Imperio](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz) | Shoot'em up por niveles, proyecto académico de programación de videojuegos. `Python` `Pygame` |
 
