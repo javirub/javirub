@@ -1,103 +1,91 @@
-# 👋 ¡Hola! Soy Javier Rubio
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Javier Rubio · Backend & platform engineer · building Costia" src="assets/banner-dark.svg" width="100%">
+</picture>
 
-🔭 Actualmente trabajando en Sina Suite como desarrollador backend con Java Spring desarrollando soluciones del ámbito hospitalario  
-🌱 Aprendiendo sobre: `Inteligencia Artificial` y `Agentes inteligentes`  
-💬 Pregúntame sobre: `Desarrollo Backend`, `Inteligencia Artificial`, `Kubernetes`  
-🌐 Página personal: [javirub.pro](https://www.javirub.pro)
+<p align="center">
+  <a href="https://costia.app"><img alt="costia.app" src="https://img.shields.io/badge/costia.app-150a2e?style=flat-square&logo=googlechrome&logoColor=03edf3"></a>
+  <a href="https://www.javirub.pro"><img alt="javirub.pro" src="https://img.shields.io/badge/javirub.pro-150a2e?style=flat-square&logo=googlechrome&logoColor=b826fd"></a>
+  <a href="https://www.linkedin.com/in/javirub/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+</p>
 
-## 🌱 Proyectos en marcha
+I'm a backend developer at **[Lãberit](https://www.laberit.com)**, building hospital software on **SINASUITE** with Java and Spring.
 
-Actualmente, estoy trabajando en:
+Outside work I build **[Costia](https://costia.app)**, a family of everyday apps with AI where it saves work. I take them end to end: product, backends, mobile clients, and the platform they run on. That platform is a GitOps cluster where AI agents do most of the routine engineering, and I review what they propose.
 
-- **Mejorar mi trabajo de fin de Carrera: Una solución web para supermercados con recomendaciones inteligentes de recetas personalizadas y sostenibles**: Proyecto finalizado y en producción en [market.javirub.pro](https://market.javirub.pro).
-  - Desarrollo fullstack de una web de supermercado con IA aplicada para ofrecer recetas customizadas en base a gustos, alergias, con registro de productos perecederos para darles mayor peso como posible ingrediente de receta.
-  - Backend desarrollado con Spring Boot 3.5.6, Java 21, PostgreSQL.
-  - Frontend desarrollado con React.
-  - Integración de IA con LLM externo usando LangChain.
-  - Otros servicios: 
-    - ElasticSearch para búsquedas híbridas texto + embeddings.
-    - Kibana para monitorización.
-    - ImgProxy para optimización de imágenes.
-    - Caddy como reverse proxy.
+I'm most interested in **AI agents**, **platform engineering** and **Kubernetes**.
 
-- **Magic Reviewer**: Revisor de PRs de GitLab con Inteligencia Artificial para automatizar y mejorar el proceso de revisión de código.
+## 🚀 Now building: Costia
 
-## 📦 Proyectos públicos
+One Costia account and one Premium subscription work across every app. There are no ads in any of them.
 
-| Proyecto | Qué es |
+| | App | What it does |
+| :-: | --- | --- |
+| 💸 | **[Costia Finance](https://costia.app/finance)** | Split bills and track spending; scan a receipt and let everyone tick theirs. iOS, Android and [web](https://finance.costia.app), with a [public API](https://docs.costia.app). |
+| 🏋️ | **[Costia Training](https://costia.app/training)** | A strength log that keeps a history rather than a number and tells you what to put on the bar next. Works offline in the gym. |
+| 📦 | **[Costia Inventory](https://costia.app/inventory)** | Map your home, record where things are, and find them again by searching or asking the assistant. |
+| 🥗 | **[Costia Ambrosia](https://costia.app/ambrosia)** | A meal planner for the whole household that turns the week's menus into a shopping list for each supermarket. |
+| 🧩 | **[Costia Claude Tools](https://costia.app/claude)** | Your Claude Code setup (skills, hooks, MCP servers, AGENTS.md rules) as a [Costia account](https://claude.costia.app): a catalogue you can install in any repo and share. |
+| 🍽️ | **Costia Menu** · *in progress* | Software for restaurants: the menu on a site of its own, and ordering from the table. |
+
+**Stack:** Spring Boot 4 on Java 25, Expo and React Native offline-first clients, PostgreSQL, and a shared platform for identity, subscriptions and AI.
+
+## 🤖 How it ships: agents + GitOps
+
+The apps are maintained by a pipeline of AI agents. Every signal that needs code becomes an issue, and an agent works on it in an isolated sandbox. What comes out is a merge request. **Agents propose and never merge.** I approve every change, and Git is the only path to production.
+
+```mermaid
+flowchart LR
+  subgraph signals [Signals]
+    direction TB
+    s1[User suggestions]
+    s2[Production alerts]
+    s3[Dependency updates]
+    s4[Docs drift]
+  end
+  signals --> triage{Triage}
+  triage --> agent[AI agent<br/>in a sandbox]
+  agent --> mr[Merge request]
+  mr --> review[CI + my review]
+  review -->|merge| git[(GitOps repo)]
+  git --> argo[Argo CD]
+  argo --> k8s[Kubernetes]
+  k8s -. telemetry .-> s2
+```
+
+Underneath, Kubernetes operators do the heavy lifting: **Argo CD**, **External Secrets**, **cert-manager**, **ExternalDNS**, **CloudNativePG** and the **Istio Gateway API**. The **Grafana** stack provides metrics, logs and traces.
+
+## 🛠️ Other things I've built
+
+| Project | What it is |
 | --- | --- |
-| [gq](https://github.com/javirub/gq) | Procesador YAML/JSON compatible con `yq` que preserva la sintaxis de plantillas Go en ficheros `.gotmpl`, pensado para helmfile. `Go` |
-| [glaber](https://github.com/javirub/glaber) | App de escritorio (Tauri + React) para operar contra la API de GitLab sin escribir scripts: variables CI/CD, proyectos y subida de paquetes. `Rust` `TypeScript` |
-| [The New Era Codex](https://github.com/javirub/The-New-Era-Codex) | Plataforma de documentación multilingüe sobre IA aplicada: agentes, RAG, prompting, n8n y LLMs. `Astro` `Starlight` |
-| [Mirage](https://github.com/javirub/Mirage) | Proxy desplegable en Vercel dentro del plan gratuito. `TypeScript` |
-| [claude-manual-todos-plugin](https://github.com/javirub/claude-manual-todos-plugin) | Plugin para Claude Code que registra los pasos manuales pendientes con persistencia local en SQLite. `TypeScript` `MCP` |
-| [helm-utils](https://github.com/javirub/helm-utils) | Utilidades para Helm y Helmfile, empezando por un generador de JSON Schema para `values.yaml`. `Bash` `PowerShell` |
-| [Plex Duplicate Reviewer](https://github.com/javirub/Plex-Server-Duplicate-Reviewer) | CLI que localiza películas duplicadas en un servidor Plex y las vuelca a CSV. `Python` |
-| [La sombra del Imperio](https://github.com/javirub/La-sombra-del-Imperio-Guardianes-de-la-paz) | Shoot'em up por niveles, proyecto académico de programación de videojuegos. `Python` `Pygame` |
+| [**Manual Tasks**](https://manualtasks.dev) · [repo](https://github.com/javirub/claude-manual-todos-plugin) | A Claude Code plugin that records the manual steps only you can do (a console setting, a secret to seed, a review to answer) and lays them out on a board. |
+| [**CubeDojo**](https://cubedojo.app) | A speedcubing app: a WCA-faithful timer, a path from the beginner method to full CFOP, and trainers for every case set. |
+| [**Supermarket recommender**](https://market.javirub.pro) | My degree's final project: a supermarket web shop that suggests personalised, sustainable recipes and favours products that are about to expire. Spring Boot, React, Elasticsearch hybrid search and an LLM. |
+| [**gq**](https://github.com/javirub/gq) | A `yq`-compatible YAML/JSON processor that preserves Go template syntax in `.gotmpl` files, built for Helmfile. `Go` |
+| [**glaber**](https://github.com/javirub/glaber) | A desktop app for GitLab API chores without scripting: CI/CD variables, projects and package uploads. `Tauri` `React` |
+| [**helm-utils**](https://github.com/javirub/helm-utils) | Helm and Helmfile utilities, including a JSON Schema generator for `values.yaml`. `Bash` |
+| [**Mirage**](https://github.com/javirub/Mirage) | A proxy that deploys on Vercel's free tier. `TypeScript` |
 
-Contribuciones abiertas en [external-secrets](https://github.com/external-secrets/external-secrets/pull/6510) y [expo](https://github.com/expo/expo/pull/49404).
+### Open source contributions
 
-## 🛠️ Tecnologías y herramientas
+- **external-secrets**: [fix(gitlab): return NoSecretErr for missing variables and allow empty values](https://github.com/external-secrets/external-secrets/pull/6510) (open)
+- **expo**: [docs: recommend maintained React Native passkey library](https://github.com/expo/expo/pull/49404) (open)
+- **SchemaStore**: [Helmfile schema fixes and new fields](https://github.com/SchemaStore/schemastore/pull/5033) (merged)
 
-### Comunicación entre aplicaciones
-![REST](https://img.shields.io/badge/REST-000000?style=for-the-badge&logo=rest&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white)
+## 🧰 Tech stack
 
-### Lenguajes de programación
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+<p>
+  <img alt="Backend" src="https://skillicons.dev/icons?i=java,spring,kotlin,go,rust,py,fastapi,gradle&theme=dark&perline=8">
+  <br>
+  <img alt="Frontend and mobile" src="https://skillicons.dev/icons?i=ts,react,nextjs,vite,tailwind,astro,tauri,bun&theme=dark&perline=8">
+  <br>
+  <img alt="Data and infrastructure" src="https://skillicons.dev/icons?i=postgres,redis,elasticsearch,docker,kubernetes,gitlab,cloudflare,grafana,prometheus,sentry&theme=dark&perline=10">
+</p>
 
-### Frameworks y bibliotecas
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white) ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
 
-### Seguridad y autenticación
-![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-3D85C6?style=for-the-badge&logo=oauth&logoColor=white)
-![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Better Auth](https://img.shields.io/badge/Better_Auth-6B46C1?style=for-the-badge&logo=auth0&logoColor=white)
+## 🌍 Languages
 
-### DevOps y herramientas de desarrollo
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![Helmfile](https://img.shields.io/badge/Helmfile-2C3E50?style=for-the-badge&logo=helm&logoColor=white)
-![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-
-### Bases de datos
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-
-### Gestión de proyectos
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=linear&logoColor=white)
-
-### IDEs y editores
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
-![DataGrip](https://img.shields.io/badge/DataGrip-000000?style=for-the-badge&logo=datagrip&logoColor=white)
-![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-## 🌍 Idiomas
-
-- ![**Español** (Nativo)](https://img.shields.io/badge/Español-Nativo-red?style=for-the-badge&logo=es&logoColor=white)
-- ![**Catalán** (Nativo)](https://img.shields.io/badge/Catalán-Nativo-red?style=for-the-badge&logo=cat&logoColor=white)
-- ![**Inglés** (Profesional)](https://img.shields.io/badge/Inglés-Profesional-yellow?style=for-the-badge&logo=gb&logoColor=white) (mejorando activamente)
-
-## 🌍 Encuéntrame en
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javirub/)
+Spanish and Catalan (native) · English (professional)

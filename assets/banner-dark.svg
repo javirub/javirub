@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Javier Rubio</title>
+  <desc id="desc">Backend and platform engineer, building Costia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07060b"/>
+      <stop offset="1" stop-color="#150a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b826fd"/>
+      <stop offset="1" stop-color="#03edf3"/>
+    </linearGradient>
+    <radialGradient id="glowViolet">
+      <stop offset="0" stop-color="#b826fd" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#b826fd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#03edf3" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#03edf3" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#f5f3fa" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="320" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .ink { fill: #f5f3fa; }
+      .soft { fill: #b3aec4; }
+      .faint { fill: #8a849d; }
+      .chip { fill: #f5f3fa; fill-opacity: 0.05; stroke: #f5f3fa; stroke-opacity: 0.12; }
+      .drift-a { animation: drift-a 14s ease-in-out infinite alternate; }
+      .drift-b { animation: drift-b 18s ease-in-out infinite alternate; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes drift-a { to { transform: translate(60px, 30px); } }
+      @keyframes drift-b { to { transform: translate(-70px, -20px); } }
+      @keyframes pulse { 50% { opacity: 0.35; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .drift-a, .drift-b, .pulse, .cursor { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+    <circle class="drift-a" cx="980" cy="60" r="260" fill="url(#glowViolet)"/>
+    <circle class="drift-b" cx="1180" cy="300" r="220" fill="url(#glowCyan)"/>
+    <rect x="0" y="0" width="1280" height="3" fill="url(#accent)"/>
+  </g>
+
+  <!-- Left: who -->
+  <text x="72" y="92" class="mono faint" font-size="16" letter-spacing="3">HI, I'M</text>
+  <text x="70" y="160" class="sans ink" font-size="68" font-weight="800" letter-spacing="-1.5">Javier Rubio</text>
+  <text x="72" y="206" class="sans" font-size="26" font-weight="600" fill="url(#accent)">Backend &amp; platform engineer · building Costia</text>
+  <text x="72" y="256" class="mono soft" font-size="17">
+    <tspan fill="#03edf3">$</tspan> java · spring · kubernetes · ai agents · valencia, es<tspan class="cursor" fill="#b826fd">▍</tspan>
+  </text>
+
+  <!-- Right: the Costia family -->
+  <text x="904" y="70" class="mono faint" font-size="13" letter-spacing="2">COSTIA.APP</text>
+  <g class="sans" font-size="16" font-weight="600">
+    <g transform="translate(904 88)">
+      <rect class="chip" width="160" height="40" rx="20"/>
+      <circle class="pulse" cx="22" cy="20" r="6" fill="#8b5cf6"/>
+      <text x="38" y="26" class="ink">Finance</text>
+    </g>
+    <g transform="translate(1076 88)">
+      <rect class="chip" width="160" height="40" rx="20"/>
+      <circle class="pulse" cx="22" cy="20" r="6" fill="#ff5f52" style="animation-delay:.4s"/>
+      <text x="38" y="26" class="ink">Training</text>
+    </g>
+    <g transform="translate(904 140)">
+      <rect class="chip" width="160" height="40" rx="20"/>
+      <circle class="pulse" cx="22" cy="20" r="6" fill="#22d3ee" style="animation-delay:.8s"/>
+      <text x="38" y="26" class="ink">Inventory</text>
+    </g>
+    <g transform="translate(1076 140)">
+      <rect class="chip" width="160" height="40" rx="20"/>
+      <circle class="pulse" cx="22" cy="20" r="6" fill="#a3e635" style="animation-delay:1.2s"/>
+      <text x="38" y="26" class="ink">Ambrosia</text>
+    </g>
+    <g transform="translate(904 192)">
+      <rect class="chip" width="160" height="40" rx="20"/>
+      <circle class="pulse" cx="22" cy="20" r="6" fill="#fb923c" style="animation-delay:1.6s"/>
+      <text x="38" y="26" class="ink">Claude Tools</text>
+    </g>
+    <g transform="translate(1076 192)">
+      <rect class="chip" width="160" height="40" rx="20" stroke-dasharray="4 4"/>
+      <circle cx="22" cy="20" r="6" fill="none" stroke="#8a849d" stroke-width="2"/>
+      <text x="38" y="26" class="faint">Menu · soon</text>
+    </g>
+  </g>
+  <text x="904" y="266" class="mono faint" font-size="13">one account · one premium · every app</text>
+</svg>
