@@ -37,15 +37,11 @@ The apps are maintained by a pipeline of AI agents. Every signal that needs code
 
 ```mermaid
 flowchart LR
-  subgraph signals [Signals]
-    direction TB
-    s1[User suggestions]
-    s2[Production alerts]
-    s3[Dependency updates]
-    s4[Docs drift]
-  end
-  signals --> triage{Triage}
-  triage --> agent[AI agent<br/>in a sandbox]
+  s1([User suggestions]) --> triage
+  s2([Production alerts]) --> triage
+  s3([Dependency updates]) --> triage
+  s4([Docs drift]) --> triage
+  triage{Triage} --> agent[AI agent<br/>in a sandbox]
   agent --> mr[Merge request]
   mr --> review[CI + my review]
   review -->|merge| git[(GitOps repo)]
